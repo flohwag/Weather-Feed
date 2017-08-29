@@ -2,6 +2,7 @@
 from weather import Weather
 import time 
 while True:
+	Weather = Weather()
 	print("Die aktuelle Uhrzeit")
 	print(time.asctime())
 	print("Das Wetter:")
